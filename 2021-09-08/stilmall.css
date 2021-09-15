@@ -1,21 +1,21 @@
 .container {
-	background-color:yellow;
-	border-color:green;
-	border-style:solid;
-	display:flex;
-	/* Definierar huvudaxeln */
-	flex-direction:column;
-	/* orientering i huvudaxeln */
-	justify-content:space-around;
+  background-color: yellow;
+  border-color: green;
+  border-style: solid;
+  display: flex;
+  /* Definierar huvudaxeln */
+  flex-direction: column;
+  /* orientering i huvudaxeln */
+  justify-content: space-around;
 }
 
 .item {
-	background-color:red;
-	border-color:blue;
-	border-style:solid;
-	margin:20px;
-	padding:0px;
-	display:flex;
-	flex-direction:row;
-	justify-content:center;
+  background-color: red;
+  border-color: blue;
+  border-style: solid;
+  margin: 20px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

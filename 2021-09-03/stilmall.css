@@ -1,13 +1,11 @@
-
-
 div {
-	background-color:red;
+  background-color: red;
 }
-span { 
-	background-color:yellow;
+
+span {
+  background-color: yellow;
 }
 
 .green {
-	
-	color:green;
+  color: green;
 }
