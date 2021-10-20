@@ -1,0 +1,31 @@
+@font-face {
+  /* "Oswald" har laddats ner och finns på den egna webbservern */
+  font-family: Oswald;
+  /* Sökväg till (Här finns den) fonten "Oswald"
+på den egna webbservern */
+  src: url("fonts/Oswald-VariableFont_wght.ttf");
+}
+
+/* "*" betyder överallt
+"Oswald" ska användas överallt */
+* {
+  /* "Oswald" är en variable font så den finns i alla varianter
+jag använder denna (italic, bold, small-caps), överallt */
+  font-family: "Oswald";
+  /* Vi måste skriva över egenskaperna nedan, annars gäller det som
+  står under "* {  }"           */
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps; /* Stor bokstav är stor versal, liten bokstav
+
+}
+
+/* Utom när det är "p" (Paragraph, nytt stycke)
+då ska "Crimson Pro" användas
+"Crimson Pro finns på Googles webbserver" */
+p {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+}
