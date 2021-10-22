@@ -1,0 +1,32 @@
+
+.container {
+  display:flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+}
+
+.item {
+  width:200px;
+  height: 100px;
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+}
+
+a {
+    color:blue;
+    text-decoration:none;
+}
+a:visited {
+  color:purple;
+}
+a:hover {
+  color:yellow;
+}
