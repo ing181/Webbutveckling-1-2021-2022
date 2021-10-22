@@ -1,25 +1,5 @@
-
-.container {
-  display:flex;
-  flex-direction: row;
-}
-
-@media only screen and (max-width: 600px) {
-
-  .container {
-    flex-direction: column;
-  }
-
-}
-
-.item {
-  width:200px;
-  height: 100px;
-  background-color: red;
-  border-style: solid;
-  border-color: black;
-}
-
+/* CSS Pseudo-classes */
+/* https://www.w3schools.com/css/css_pseudo_classes.asp */
 a {
     color:blue;
     text-decoration:none;
@@ -29,4 +9,31 @@ a:visited {
 }
 a:hover {
   color:yellow;
+}
+.container {
+  display:flex;
+  flex-direction: row;
+}
+
+
+
+
+/*   */
+
+.item {
+  width:200px;
+  height: 100px;
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+}
+
+/* Lägg "@media" sist, så är du säker på att det verkligen gäller
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media only screen and (max-width: 600px) {
+
+  .container {
+    flex-direction: column;
+  }
+
 }
