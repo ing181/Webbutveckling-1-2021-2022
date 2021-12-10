@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JavaScript Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stilmall.css">
+  <script>
+
+function test()
+{
+                                  /* getElementBiId("mittid") */
+  var vidd = window.getComputedStyle( document.getElementById("mindiv"),null).getPropertyValue('width');
+
+
+  if (vidd == "200px") {
+// document.body.style.backgroundColor = "yellow";
+document.getElementBiId("mindiv").style.width = "400px";
+}
+else {
+document.getElementBiId("mindiv").style.width = "200px";
+
+}
+
+
+}
+  </script>
+</head>
+
+<body>
+<input type="button" onclick="setInterval(test, 1000)">
+<div id="mindiv"></div>
+</body>
+
+</html>
