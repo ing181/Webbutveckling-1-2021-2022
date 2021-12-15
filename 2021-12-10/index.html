@@ -6,14 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="stilmall.css">
   <script>
-function addera(nr1,nr2,summa)
+
+// function addera(nr1,nr2,summa)
+function addera(nr1,nr2)
 {
+
+  /*
   var nummer1 = document.getElementById(nr1).value;
   var number1 = Number(nummer1);
   var nummer2 = document.getElementById(nr2).value;
   var number2 = Number(nummer2);
   var summan = number1+number2;
-  document.getElementById(summa).innerHTML = summan;
+*/
+  nr1 = Number(nr1);
+  nr2 = Number(nr2);
+  var summan = nr1 + nr2;
+
+//  document.getElementById(summa).innerHTML = summan;
+ document.getElementById("summa").innerHTML = summan;
 }
 
   </script>
@@ -22,7 +32,8 @@ function addera(nr1,nr2,summa)
 <body>
     <input type="text" id="nr1"><br>
     <input type="text" id="nr2"><br>
-    <input type="button" value="Addera" onclick="addera('nr1','nr2','summa');"><br>
+  <!--  <input type="button" value="Addera" onclick="addera('nr1','nr2','summa');"><br> -->
+    <input type="button" value="Addera" onclick="addera(document.getElementById('nr1').value,document.getElementById('nr2').value);"><br>
     <div id="summa">Här summeras talen</div>
 
 
