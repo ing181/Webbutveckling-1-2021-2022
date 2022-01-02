@@ -1,4 +1,5 @@
 function visa(v) {
 
-  alert(v);
+  return v;
+  console.error(v);
 }
