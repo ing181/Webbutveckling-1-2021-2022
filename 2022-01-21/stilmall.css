@@ -1,0 +1,21 @@
+#telefon {
+  background-color: yellow;
+  width:fit-content;
+  padding:5px;
+  border-radius:10px;
+  cursor:pointer;
+}
+#nummer {
+  display:none;
+  flex-direction: column;
+}
+
+#telefon:hover #nummer {
+  display:flex;
+
+}
+
+.this_nummer:hover {
+   background-color: grey;
+
+}
